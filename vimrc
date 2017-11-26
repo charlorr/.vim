@@ -9,19 +9,8 @@ set nocompatible
 " UI Settings
 set t_Co=256
 set background=dark
-set whichwrap+=<,>,h,l,[,]
-set laststatus=2
-
-hi StatusLine ctermbg=yellow  ctermfg=black  cterm=reverse
-
-set statusline+=\ %f
-set statusline+=%m\
-set statusline+=%=
-set statusline+=\ %y
-set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
-set statusline+=\[%{&fileformat}\]
-set statusline+=\ %l:%c
-set statusline+=\ 
+colorscheme elflord 
+"set whichwrap+=<,>,h,l,[,]
 
 
 
